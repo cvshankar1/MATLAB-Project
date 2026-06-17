@@ -14,8 +14,7 @@
    live animation), and all relevant numeric evidence is printed to the
    Command Window as the script runs.
 
-If your group was assigned a different robot (e.g. Kinova Gen3), change
-one line near the top:
+
 ```matlab
 robot = loadrobot('kinovaGen3', 'DataFormat', 'column', 'Gravity', [0 0 -9.81]);
 ```
@@ -46,9 +45,7 @@ questions directly to the Command Window:
 - Trajectory method and timing (R5)
 - Controller type, gains, and per-joint RMS/max tracking error (R6)
 
-You can copy these printed values straight into the reflection sheet, and
-the six generated figures can be exported (`File > Export` or
-`saveas(gcf, 'figure_name.png')`) for your submission package.
+
 
 ## Tuning the controller
 
